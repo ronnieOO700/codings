@@ -6,6 +6,8 @@ int main()
 	int vowels=0, special=0,rest=0;
 	char a,b;
 	FILE *p;
+	// i am using devC++ vversion 4.9.9.2, i have created file named test2.txt and saved "hello! how are you?i am fine Thank you :-D" 
+	// i have saved in my libraries->document folder in windows
 	p=fopen("test2.txt","r");
 	if(p==NULL)
 	{
