@@ -5,6 +5,7 @@ int main()
 {
 	char a,b;
 	FILE *p;
+	// test.txt was created on previous code named as Charenter
 	p=fopen("test.txt","r");
 	if(p==NULL)
 	{
